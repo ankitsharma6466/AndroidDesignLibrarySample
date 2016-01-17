@@ -4,14 +4,14 @@
     android:layout_width="match_parent"
     android:layout_height="150dp"
     android:background="?attr/colorPrimaryDark"
-    android:padding="16dp"
+    android:padding="@dimen/padding_high"
     android:theme="@style/ThemeOverlay.AppCompat.Dark"
     android:gravity="bottom">
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/drawer_header_text"
-        android:textAppearance="@style/TextAppearance.AppCompat.Body1"/>
+        android:textColor="@android:color/white"
+        android:text="@string/drawer_text"/>
 
 </LinearLayout>
