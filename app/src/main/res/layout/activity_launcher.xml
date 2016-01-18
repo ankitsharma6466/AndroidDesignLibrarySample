@@ -1,0 +1,101 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.ankitsharma6466.androiddesignlibrarysample.LauncherActivity">
+
+    <TextView
+        android:text="Android Design Library Sample"
+        android:paddingBottom="@dimen/padding_xhigh"
+        android:paddingTop="@dimen/padding_xhigh"
+        android:textSize="@dimen/text_large"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:background="@color/app_primary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#ccc"/>
+
+    <TextView
+        android:text="Navigation View"
+        android:textSize="@dimen/text_medium"
+        android:textColor="#b4000000"
+        android:onClick="onNavigationViewClick"
+        android:background="@drawable/bg_selectable_white"
+        android:padding="@dimen/padding_high"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#ccc"/>
+
+    <TextView
+        android:text="FAB and Snackbar"
+        android:textSize="@dimen/text_medium"
+        android:textColor="#b4000000"
+        android:onClick="onFABClick"
+        android:background="@drawable/bg_selectable_white"
+        android:padding="@dimen/padding_high"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#ccc"/>
+
+    <TextView
+        android:text="Tabs View"
+        android:textSize="@dimen/text_medium"
+        android:textColor="#b4000000"
+        android:onClick="onTabViewClick"
+        android:background="@drawable/bg_selectable_white"
+        android:padding="@dimen/padding_high"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#ccc"/>
+
+    <TextView
+        android:text="Material Text Input"
+        android:textSize="@dimen/text_medium"
+        android:textColor="#b4000000"
+        android:onClick="onTextInputClick"
+        android:background="@drawable/bg_selectable_white"
+        android:padding="@dimen/padding_high"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#ccc"/>
+
+    <TextView
+        android:text="Collapsible Toolbar"
+        android:textSize="@dimen/text_medium"
+        android:textColor="#b4000000"
+        android:onClick="onCollapsibleClick"
+        android:background="@drawable/bg_selectable_white"
+        android:padding="@dimen/padding_high"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#ccc"/>
+
+
+</LinearLayout>
